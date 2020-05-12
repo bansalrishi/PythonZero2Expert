@@ -1,9 +1,9 @@
-# My Courses:
-### Udemy
+# My Wall:
+### Udemy Courses
 Free to Join: https://www.udemy.com/course/fundamentals-of-machine-learning-hindi/
 
+### Websites
 My Blog: https://machine-arena.blogspot.com/  
-
 YouTube Channel: https://www.youtube.com/channel/UC1kn4liyEj4qmDgkSvOmNZQ/playlists
 
 
