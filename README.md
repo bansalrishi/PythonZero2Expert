@@ -18,5 +18,31 @@ YouTube Channel: https://www.youtube.com/channel/UC1kn4liyEj4qmDgkSvOmNZQ/playli
 **Chapter 5 :** [Data Structures]    
 **Chapter 6 :** [Lists & Dictionaries]    
 **Chapter 7 :** [Lists and Functions]    
-**Chapter 8 :** [Lists and Functions]    
-**Chapter 9 :** [Introduction to Classes]    
+**Chapter 8 :** [File Handling]    
+
+# Python for Data Science/Machine Learning  
+**Chapter  :** [Introduction to Numpy]  
+**Chapter  :** [Dive Deep Numpy]  
+**Chapter  :** [Introduction to Pandas]  
+**Chapter  :** [Dive Deep Pandas]  
+**Chapter  :** [Matplotlib]  
+
+
+# Object Oriented Programming in Python3  
+**Chapter  :** [Introduction to OOP?]  
+**Chapter  :** [Classes]   
+**Chapter  :** [Objects (Instances)]  
+**Chapter  :** [Define a Class]   
+**Chapter  :** [Instantiating Objects]  
+**Chapter  :** [Instance Methods]  
+**Chapter  :** [Inheritance]  
+**Chapter  :** [Operator Overloading]  
+
+# Advanced Topics  
+**Chapter  :** [Iterator]  
+**Chapter  :** [Generator]  
+**Chapter  :** [Closure]  
+**Chapter  :** [Decorators]     
+**Chapter  :** [Property]  
+**Chapter  :** [Regex]  
+**Chapter  :** [Examples]  
