@@ -21,10 +21,8 @@ YouTube Channel: https://www.youtube.com/channel/UC1kn4liyEj4qmDgkSvOmNZQ/playli
 **Chapter 8 :** [File Handling]    
 
 # Python for Data Science/Machine Learning  
-**Chapter  :** [Introduction to Numpy]  
-**Chapter  :** [Dive Deep Numpy]  
-**Chapter  :** [Introduction to Pandas]  
-**Chapter  :** [Dive Deep Pandas]  
+**Chapter  :** [Numpy](https://github.com/bansalrishi/PythonZero2Expert/blob/master/Numpy%20for%20Data%20Science.ipynb)  
+**Chapter  :** [Pandas](https://github.com/bansalrishi/PythonZero2Expert/blob/master/Pandas%20for%20Data%20Science.ipynb)  
 **Chapter  :** [Matplotlib]  
 
 
