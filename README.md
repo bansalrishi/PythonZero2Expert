@@ -47,3 +47,5 @@ YouTube Channel: https://www.youtube.com/channel/UC1kn4liyEj4qmDgkSvOmNZQ/playli
 **Chapter  :** [Property]  
 **Chapter  :** [Regex]  
 **Chapter  :** [Examples]  
+**Chapter  :** [Logging]  
+**Chapter  :** [Exception Handling]  
