@@ -46,7 +46,7 @@ YouTube Channel: https://www.youtube.com/channel/UC1kn4liyEj4qmDgkSvOmNZQ/playli
 **Chapter  :** [Decorators]     
 **Chapter  :** [Property]  
 **Chapter  :** [Regex]  
-**Chapter  :** [Multi-Threading] 
+**Chapter  :** [Multi-Threading]   
 **Chapter  :** [Examples]  
 **Chapter  :** [Logging]  
 **Chapter  :** [Exception Handling]  
