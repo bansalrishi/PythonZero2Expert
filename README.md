@@ -24,8 +24,8 @@ YouTube Channel: https://www.youtube.com/channel/UC1kn4liyEj4qmDgkSvOmNZQ/playli
 **Chapter 8 :** [File Handling]    
 
 # Python for Data Science/Machine Learning  
-**Chapter  :** [Numpy](https://github.com/bansalrishi/PythonZero2Expert/blob/master/Numpy%20for%20Data%20Science.ipynb)  
-**Chapter  :** [Pandas](https://github.com/bansalrishi/PythonZero2Expert/blob/master/Pandas%20for%20Data%20Science.ipynb)  
+**Chapter  :** [Numpy](https://github.com/bansalrishi/PythonZero2Expert/blob/master/DS_numpy.ipynb)  
+**Chapter  :** [Pandas](https://github.com/bansalrishi/PythonZero2Expert/blob/master/DS_pandas.ipynb)  
 **Chapter  :** [Matplotlib]  
 
 
@@ -46,7 +46,7 @@ YouTube Channel: https://www.youtube.com/channel/UC1kn4liyEj4qmDgkSvOmNZQ/playli
 **Chapter  :** [Decorators]     
 **Chapter  :** [Property]  
 **Chapter  :** [Regex]  
-**Chapter  :** [Multi-Threading]   
+**Chapter  :** [Multi-Threading](https://github.com/bansalrishi/PythonZero2Expert/blob/master/AT_Multi-Threading.ipynb)     
 **Chapter  :** [Examples]  
-**Chapter  :** [Logging]  
-**Chapter  :** [Exception Handling]  
+**Chapter  :** [Logging](https://github.com/bansalrishi/PythonZero2Expert/blob/master/AT_Logging.ipynb)    
+**Chapter  :** [Exception Handling](https://github.com/bansalrishi/PythonZero2Expert/blob/master/AT_Exception_Handling.ipynb)    
