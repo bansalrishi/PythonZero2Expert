@@ -1,0 +1,25 @@
+07-15 09:55 root         INFO     Jackdaws love my big sphinx of quartz.
+07-15 09:55 myapp.area1  DEBUG    Quick zephyrs blow, vexing daft Jim.
+07-15 09:55 myapp.area1  INFO     How quickly daft jumping zebras vex.
+07-15 09:55 myapp.area2  WARNING  Jail zesty vixen who grabbed pay from quack.
+07-15 09:55 myapp.area2  ERROR    The five boxing wizards jump quickly.
+07-15 10:03 root         INFO     This is just an INFO message
+07-15 10:03 myapp.service1 DEBUG    Service 1 is not wokring as expected
+07-15 10:03 myapp.service1 INFO     Service 1 completed configuration
+07-15 10:03 myapp.service2 WARNING  Service 2 developing issues, please check
+07-15 10:03 myapp.service2 ERROR    Service 2 has failed
+07-15 10:18 root         INFO     This is just an INFO message
+07-15 10:18 myapp.service1 DEBUG    Service 1 is not wokring as expected
+07-15 10:18 myapp.service1 INFO     Service 1 completed configuration
+07-15 10:18 myapp.service2 WARNING  Service 2 developing issues, please check
+07-15 10:18 myapp.service2 ERROR    Service 2 has failed
+07-15 10:18 root         INFO     This is just an INFO message
+07-15 10:18 myapp.service1 DEBUG    Service 1 is not wokring as expected
+07-15 10:18 myapp.service1 INFO     Service 1 completed configuration
+07-15 10:18 myapp.service2 WARNING  Service 2 developing issues, please check
+07-15 10:18 myapp.service2 ERROR    Service 2 has failed
+07-15 10:18 root         INFO     This is just an INFO message
+07-15 10:18 myapp.service1 DEBUG    Service 1 is not wokring as expected
+07-15 10:18 myapp.service1 INFO     Service 1 completed configuration
+07-15 10:18 myapp.service2 WARNING  Service 2 developing issues, please check
+07-15 10:18 myapp.service2 ERROR    Service 2 has failed

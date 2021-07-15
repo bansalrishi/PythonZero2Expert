@@ -1,0 +1,5 @@
+07-15 10:19 root            INFO       This is just an INFO message
+07-15 10:19 myapp.service1  DEBUG      Service 1 is not wokring as expected
+07-15 10:19 myapp.service1  INFO       Service 1 completed configuration
+07-15 10:19 myapp.service2  WARNING    Service 2 developing issues, please check
+07-15 10:19 myapp.service2  ERROR      Service 2 has failed
