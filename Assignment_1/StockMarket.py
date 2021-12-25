@@ -70,15 +70,20 @@ class StockMarket():
                 summation_price_quantity += self.__TRRECORD[key]['price'] * self.__TRRECORD[key]['volume']
                 total_quantity += self.__TRRECORD[key]['volume']
         if total_quantity == 0:
-            return "No Trade in Stock: {0} in last {1} Minutes".format(stock, timeslot)
+            return 0
         else:
             return summation_price_quantity / total_quantity
                 
     def cal_geometric_mean(self):
-        geometric = 0
+        geometric = 1
         no_of_stock = 0
         for key in self.__GBCE:
-            pass
+            p = self.cal_vol_weighted_price(key)
+            if p != 0:
+                geometric *= p
+                no_of_stock += 1
+        return pow(geometric, no_of_stock)
+            
     
     def validate_mode(self, mode):
         valid_mode = ['sell', 'buy']
@@ -114,3 +119,4 @@ s.record_trade("ALE", 500, 100, "sell")
 s.record_trade("GIN", 100, 300, "sell")
 s.show_trade_record()
 print(s.cal_vol_weighted_price("POP"))
+print(s.cal_geometric_mean())
