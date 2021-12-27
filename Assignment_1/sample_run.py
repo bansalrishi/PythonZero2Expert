@@ -5,9 +5,9 @@ import logging
 import sys
 logFormatter = logging.Formatter("%(asctime)s [%(threadName)-10.10s] [%(levelname)-6.6s]  %(message)s")
 logger = logging.getLogger()
-consoleHandler = logging.StreamHandler(sys.stdout)
-consoleHandler.setFormatter(logFormatter)
-logger.addHandler(consoleHandler)
+conHandler = logging.StreamHandler(sys.stdout)
+conHandler.setFormatter(logFormatter)
+logger.addHandler(conHandler)
 logger.setLevel(logging.INFO)
 
 
