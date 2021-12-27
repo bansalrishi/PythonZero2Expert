@@ -2,7 +2,7 @@
 from datetime import datetime
 import time
 
-class StockMarket():
+class StockMarket(object):
     __GBCE = { 'TEA': 
              {'type': "Common",
               'l_dividend': 0,
@@ -46,14 +46,14 @@ class StockMarket():
         """
         if stock in self.__GBCE:
             record = self.__GBCE[stock]
-            divYield = 0
+            divyield = 0
             try:
                 if record['type'] == "Common":
-                    divYield = record['l_dividend'] / price
+                    divyield = record['l_dividend'] / price
                 else:
-                    divYield = (record['f_dividend'] * record['par_value']) / price
-                return divYield
-            except ZeroDivisionError as Z:
+                    divyield = (record['f_dividend'] * record['par_value']) / price
+                return divyield
+            except ZeroDivisionError:
                 return ("Price can't be zero")
         else:
             raise Exception("Stock Symbol not Found")
@@ -127,7 +127,7 @@ class StockMarket():
         :param stock: Its the symbol of a stock
         :param quantity: How much quantity of stock is traded
         :param price: Price of the Stock
-        :return:  
+        :return: status message 
         """
         if stock in self.__GBCE and self.validate_mode(mode):
             timenow = datetime.now().timestamp()
@@ -138,26 +138,14 @@ class StockMarket():
             'volume': quantity,
             'symbol': stock
             }
-            print("Stock Record added successfully")
+            return ("Stock Record added successfully")
         else:
-            print("Not a Valid Stock: {0}".format(stock))
+            return ("Not a Valid Stock: {0}".format(stock))
 
     def show_trade_record(self):
         """
         Function to print Record Trade Details
-        :return: 
+        :return: Trade Record
         """        
-        print(self.__TRRECORD)
-            
-            
-s = StockMarket()
-print(s.cal_dividend_yield("JOE", 150))
-print(s.cal_pe_ratio("JOE", 150))
-
-s.record_trade("JOE", 30, 30, "sell")
-s.record_trade("JOE", 20, 20, "buy")
-s.record_trade("ALE", 500, 100, "sell")
-s.record_trade("GIN", 100, 300, "sell")
-s.show_trade_record()
-print(s.cal_vol_weighted_price("JOE"))
-print(s.cal_geometric_mean())
+        return (self.__TRRECORD)
+                     
